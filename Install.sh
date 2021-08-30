@@ -1,4 +1,6 @@
 #/bin/bash
+sudo swapoff -a
+sudo timedatectl set-timezone Asia/Jakarta
 sudo apt update
 sudo apt upgrade -y
 sudo apt install gnupg -y
